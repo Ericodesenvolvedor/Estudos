@@ -9,16 +9,20 @@
 
 <dl>
     <dt>Comentarios No Css</dt>
-    <dd>Não vai afetar o seu código</dd>
-    <dd>Ajudará os outros a entender seu código</dd>
-    <dd>Sempre lembre de fechar seu comentario</dd>
+    <dd>
+        - Não vai afetar o seu código
+        - Ajudará os outros a entender seu código
+        - Sempre lembre de fechar seu comentario
+    </dd>
 </dl>
 
 <dl>
     <dt>Entendo como adicionar Css</dt>
-    <dd>Inline</dd>
-    <dd>Interno</dd>
-    <dd>Externo</dd>
+    <dd>
+        - Inline
+        - Interno
+        - Externo
+    </dd>
 </dl>
 
 ## Pasta 001 - Anatomia
