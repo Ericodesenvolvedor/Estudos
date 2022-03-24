@@ -1,30 +1,5 @@
 # Guia Da Pasta Css
 
-<dl>
-    <dt>Conhecendo o Css</dt>
-    <dd>Introdução ao Css</dd>
-    <dd>Código para criar estilos no html</dd>
-    <dd>É uma linguagem style sheet</dd>
-</dl>
-
-<dl>
-    <dt>Comentarios No Css</dt>
-    <dd>
-        - Não vai afetar o seu código
-        - Ajudará os outros a entender seu código
-        - Sempre lembre de fechar seu comentario
-    </dd>
-</dl>
-
-<dl>
-    <dt>Entendo como adicionar Css</dt>
-    <dd>
-        - Inline
-        - Interno
-        - Externo
-    </dd>
-</dl>
-
 ## Pasta 001 - Anatomia
 
 - Seletor
@@ -37,3 +12,17 @@
 - Elementos html são caixas.
 - Caixas podem ficar ao lado da outra ou acima.
 - Posicionamento, tamanho, espaçamento, bordas e cores.
+
+## Pasta 003 - entendendo como adicionar Css
+
+- Inline: dentro do elemento adicionando o style.
+- interno: adicionando a tag style dentro dos metadados (head)
+- Externo: Criando o arquivo com a extenção .css
+
+## Cascading
+
+- Seu estilo é lido de cima para baixo
+- 3 estilos é levado em consideração.
+    1-) Origem do estilo (css: inline, interno e externo)
+    2-) Especificidade
+    3-) Importância
