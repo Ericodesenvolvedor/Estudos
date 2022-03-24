@@ -1,0 +1,12 @@
+/* Seletores, declarações, propriedades e valores das propriedades. */
+
+h1, h2 {
+    color: blue;
+}
+
+/*  
+    seletores: h2, h2
+    abertura de declaração: { }
+    propriedade: color
+    valor da propriedade: blue
+*/

@@ -54,5 +54,5 @@ hiperlinks:
 - Head 
 - Meta
 - Favicon
-- Meta SEO (author, description, )
+- Meta SEO (author, description)
 - Meta Social
