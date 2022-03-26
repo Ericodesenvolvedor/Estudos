@@ -1,0 +1,19 @@
+/* -------------------------- Absolutos ------------------------------ */
+
+#px {
+    font-size: 15px;
+}
+
+/* in e cm não aparecem, provavelmente as fontes não aceitam esses valores. */
+
+/* ------------------------- Relativos ---------------------------------*/
+
+#em {
+    font-size: 1.5em;
+}
+
+#rem {
+    font-size: 1.5rem;
+}
+
+/* Temos também os valores de vw e vh, que serve para o tamanho da sua viewport*/
