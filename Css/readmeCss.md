@@ -141,3 +141,61 @@ Exemplos de funções do CSS:
 
 - Strings: texto envolto em aspas
 - Identificadores: podemos ter nomes de cores como red, black, gold
+
+# Box Model
+
+A Box model é fundamental para fazer layouts para a web.
+- Maior facilidade para aplicar css.
+
+Possui:
+
+- Tamanho (largura x altura - width x height)
+- Conteúdo (content)
+- Bordas (Border)
+- Preenchimento interno (padding)
+- Preenchimento externo (margin)
+
+## Box-sizing
+
+Como será calculado o tamanho total da caixa?
+
+- Content-box ou border-box
+
+## Display block e inline
+
+Como as caixas irão se comportam em relação ás outras caixas
+- Comportamento externo das caixas.
+
+Block:
+
+- Ocupa toda a linha, colocando o próximo elemento em baixo.
+- O width e height é respeitado.
+- padding, margin, border irão funcionar normalmente. 
+
+inline:
+
+- Os elementos ficam um ao lado do outro. 
+- O width e height não funcionam. 
+- Somente valores horizontais de margin, padding, border.
+
+## Margin
+
+- Espaço entre os elementos
+
+## Padding 
+
+- Espaço interno.
+
+## Border e outline
+
+border: 
+
+As bordas da caixa
+- Style: dotted, solid, dashed, double, groove, ridge, inset e outset.
+
+border outline: 
+
+- Não modifica o tamanho da caixa, pois não é parte do Box Model
+- Poderá ser diferente de retangular
+- Não permite ajuste individuais
+- Mais usado pelo user agent para acessibilidade
