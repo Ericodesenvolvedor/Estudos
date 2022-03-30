@@ -199,3 +199,40 @@ border outline:
 - Poderá ser diferente de retangular
 - Não permite ajuste individuais
 - Mais usado pelo user agent para acessibilidade
+
+# Cores
+
+O que vamos ver: 
+- Cores 
+- Backgrounds
+
+## Introdução
+
+Usamos cores no css para alterar a cor do nosso documento;
+
+Tipos: 
+- Background-color (para caixas)
+- color (para textos)
+- border-color (para caixas)
+- outros...
+
+Valores:
+
+- Palavra-chae (blue, transparent)
+- hexadecimal (#990011)
+- funções (rgb, rgba, hsl, hsla)
+
+## Valores globais
+
+Global values: 
+(valores para a propriedade color)
+
+- inheritr - Herda a cor do elemento anterior */
+- initial  - Volta a sua cor inicial */
+- unset    - Pega a cor do contexto */
+
+## Background
+
+- Define um fundo para seu elemento.
+- Sua área de atuação é a caixa toda.
+- Por padrão é transparent.
