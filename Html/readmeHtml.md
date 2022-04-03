@@ -56,3 +56,56 @@ hiperlinks:
 - Favicon
 - Meta SEO (author, description)
 - Meta Social
+
+# Posso ver e ouvir o HTML
+
+O que vamos ver: 
+
+- Aprender a utilizar audio e video no html.
+- Como trazer conteúdos e mídias de outros sites.
+- Utilizar imagens de alta qualidade.
+
+## Video
+
+- Tag video e atributo src
+- source atributo type (video/mp4)
+- autoplay: vai fazer o video entrar automaticamente sem clicar no play.
+- preload: vai fazer com que o video já seja baixado automaticamente para quando o úsuario clicar no play, não ter que ficar esperando carregar.
+- poster: Esse vai fazer com que tenhamos uma capa no nosso video.
+
+## Audio 
+
+- É bem parecido com a tag de video, passa básicamente os mesmo atributos.
+
+## Iframe
+
+- Vai trazer conteúdos de fora sem consumir nossos dados
+- title: usar para acessibilidade. 
+
+## Imagens
+- Tag img
+
+Atributos: 
+
+- tittle: O tittle vai dar um titulo para nossa imagem, então quando o mouse passar em cima e parar, vai ser mostrado um titulo.
+- alt: ajuda bastante na acessibilidade, o alt vai aparecer quando a imagem não conseguir ser exibida.
+- width e height: vai modificar a largura e altura da nossa imagem.
+
+## Figure
+
+Figure é uma tag semântica par adicionarmos nossas imagens. Junto a ela pode vir um caption.
+
+## Introdução svg
+
+A tag svg é uma marcação, estilo html, mas não é para textos e sim para fazer imagens.
+
+Beneficios:
+- Mais leve.
+- Mais detalhada.
+- Possui acessibilidade e SEO.
+- Pode ser editada via Css.
+
+Desvantagens: 
+- Quanto mais detalhada, maior a dificuldade para o navegador.
+- Navegadores mais antigos não possuem suporte.
+- Pode ser mais complexo de se trabalhar. 

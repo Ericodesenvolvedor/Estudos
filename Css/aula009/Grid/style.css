@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: grid;
+    grid-template-areas: "topo topo" "esquerdo direito" "baixo baixo";
+    grid-template-rows: 10% 80% 10%;
+}
+
+header {
+    grid-area: topo;
+    background-color: green;
+}
+
+main {
+    grid-area: esquerdo;
+    background-color: red;
+}
+
+aside {
+    grid-area: direito;
+    background-color: blue;
+}
+
+footer {
+    grid-area: baixo;
+    background-color: gray;
+}

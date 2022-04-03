@@ -231,8 +231,119 @@ Global values:
 - initial  - Volta a sua cor inicial */
 - unset    - Pega a cor do contexto */
 
-## Background
+# Background
 
 - Define um fundo para seu elemento.
 - Sua área de atuação é a caixa toda.
 - Por padrão é transparent.
+
+## background-color:
+
+- define uma cor de fundo para seu elemento, preenche todo o bloco
+
+[background-color: blue;]
+
+## background-image:
+
+- Você pode definir alguns valores dentro dele, como por exemplo colocar uma imagem ou também colocar um linear-gradient.
+
+[background-image: url ('url aqui')]
+
+## background-no-repeat:
+
+- Serve para não deixar a imagem se repetir.
+
+## background-position:
+- Podemos colocar alguns valores, como por exemplo: center, left, right, top e bottom.
+- Com a propriedade background-position podemos mudar a posição da imagem do background.
+
+[background-position: center left;]
+
+## background-size:
+
+- Podemos colocar alguns valores aqui, por exemplo %, px, em e cover.
+- Para mudar o tamanho da imagem do background usamos a propriedade background-size.
+
+## Background-origin-clip:
+
+- A propriedade background-origin é quem define o ponto de origem de uma imagem específica.
+- O background-clip define se a cor ou imagem do background iniciam debaixo de sua área de borda, preenchimento ou conteúdo.
+
+# Posicionamento
+
+Layouts: 
+
+Nessa aula vamos ver alguns dos métodos usados para posicionar os elementos na tela.
+
+Tables
+Floats e clear
+Frameworks e Grid Systems
+Flexbox
+Grid
+
+## Position
+
+Controla onde, na página, o elemento irá ficar, alterando o fluxo normal dos elementos.
+
+- Name: position
+- Value: static | relative | absolute | fixed
+- Lembrando que o fluxo normal dos elementos é ficar um abaixo do outro, a não ser no caso de elementos inline, que ficam um ao lado do outro.
+
+### static: 
+
+- O valor que vem por padrão.
+
+### Relative: 
+
+- está posicionado em relação à sua posição normal.
+
+### absolute: 
+
+- absolute coloca um elemento em relação à posição de seu pai e altera o layout ao redor dele.
+
+### fixed: 
+
+- Quando aplicado o position fixed é como se criasse um elemento flutuante que fica fixo na página, independente do scrolling feito.
+
+### Element Stacking: 
+
+- É o empilhamento de elementos. Podemos usar o z-index para determinar a ordem da posição do elemento. Quanto maior o z-index, mais "acima" vai aparecer o elemento.
+
+## Flexbox
+
+- Nos permite posicionar os elementos dentro da caixa
+- Controle em uma dimensão (horizontal ou vertical)
+- Alinhamento, direcionamento, ordenar e tamanhos
+
+### Flex-direction
+
+-Qual a direção do flex: horizontal ou vertical
+- row | column
+
+### Alinhamento
+
+- justify-content
+- align-items
+
+## Grid
+
+- Posicionamento dos elementos dentro da caixa.
+- Posicionamento horizontal e vertical ao mesmo tempo.
+- Pode ser flexivel ou fixo.
+- Cria espaços para os elementos filhos habitarem.
+
+### grid-template-areas
+
+Vai definir as linhas e colunas da nossa caixa, deve-se aplicar ao conteiner pai. 
+
+"" - as aspas são as linhas
+"1 2" dentro das aspas definimos as colunas
+
+### grid-template-rows e grid-template-columns
+
+- Para definir tamanhos para nossa linhas e colunas precisamos declarar a propriedade grid-template-rows para linhas e grid-template-columns para colunas.
+
+Exemplo: 
+
+grid-template-rows: 10px 10px 10px;  (sendo 3 linhas)
+grid-template-columns: 10px 20px; (sendo duas colunas)
