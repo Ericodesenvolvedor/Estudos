@@ -347,3 +347,64 @@ Exemplo:
 
 grid-template-rows: 10px 10px 10px;  (sendo 3 linhas)
 grid-template-columns: 10px 20px; (sendo duas colunas)
+
+# Textos 
+
+- fontes, font-weight, font-family, entre outros.
+- cores.
+
+## Font-proprities
+
+A tipografia transmite uma mensagem, por exemplo, quando queremos dar uma ênfase no texto nós podemos escrever o mesmo em negrito.
+
+- Nós podemos transmitir uma mensagem diferente dependendo do estilo que escrevemos o texto.
+
+Algumas das propriedades de fonts do CSS que podem nos ajudar a transmitir uma mensagem através dos textos da página são:
+
+- font-family
+- font-weight
+- font-style
+- font-size
+
+### Font-family
+
+- Tipo de fonte de um elemento
+- Lista de fontes e ordem de prioridade
+- inclui fallback font
+
+### Font-weight
+
+- Peso da fonte
+- Valores: normal | bold | bolder | lighter | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900
+- Dependendo da família da fonte não conseguimos utilizar todos os pesos de fonte
+
+### Font-style
+
+- Guarda alguns valores, dentre eles o italic. 
+
+### Font Variant
+
+- Faz variações na apresentação da fonte (font-variant: small-caps;)
+
+### Font Stretch
+
+- Alargamento ou encolhimento da fonte
+- Aceita palavras-chaves como: expanded, condensed, normal
+- Aceita porcentagens de 50% a 200%
+- Essa propriedade não vai funcionar em todas as fontes
+
+### Letter spacing e Word spacing
+
+- letter-spacing: define o espaço entre as letras (letter-spacing: 5px;)
+- word-spacing: define o espaço entre as palavras (word-spacing: 5px);
+
+### Line-height e text-transform
+
+line-height: 
+- Define os espaços entre linhas
+- Pode ser com unidades ou sem unidades de medida
+- Valores comuns: 1.5 ou 2
+
+Text transform:
+- Transformação do texto
+- Valores podem ser: none | capitalize | uppercase | lowercase | full-width | full-size-kana.
