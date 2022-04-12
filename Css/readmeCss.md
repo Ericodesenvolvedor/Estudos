@@ -408,3 +408,38 @@ line-height:
 Text transform:
 - Transformação do texto
 - Valores podem ser: none | capitalize | uppercase | lowercase | full-width | full-size-kana.
+
+### Text-decoration
+
+- Aparência decorativa de um texto
+- line: underline | overline | line-through
+- podemos aplicar mais de 1 valor
+- style: wavy | dotted | double | dashed | solid
+- color: color values
+
+### Text-align
+
+- Alinhamento de um texto
+- Valores: start | end | left | right | center | justify | match-parent
+
+### Text-shadow
+
+ombra aplicada a um texto
+Permite múltiplos valores
+
+### Shorthand
+
+- Podemos usar o shorthand font para determinar os seguintes valores: - - font-style, font-variant, font-weight, font-stretch, font-size, line-height e font-family
+
+# Form
+
+Objetivos: 
+
+- Como funciona um formulario.
+- Como utilizar diversos dados de entrada.
+
+## O que são formularios?
+
+- Capturar dados de entrada (input)
+- Interação
+- Controle
