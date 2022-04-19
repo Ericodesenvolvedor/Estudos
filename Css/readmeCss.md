@@ -430,16 +430,3 @@ Permite múltiplos valores
 ### Shorthand
 
 - Podemos usar o shorthand font para determinar os seguintes valores: - - font-style, font-variant, font-weight, font-stretch, font-size, line-height e font-family
-
-# Form
-
-Objetivos: 
-
-- Como funciona um formulario.
-- Como utilizar diversos dados de entrada.
-
-## O que são formularios?
-
-- Capturar dados de entrada (input)
-- Interação
-- Controle

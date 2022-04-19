@@ -109,3 +109,186 @@ Desvantagens:
 - Quanto mais detalhada, maior a dificuldade para o navegador.
 - Navegadores mais antigos não possuem suporte.
 - Pode ser mais complexo de se trabalhar. 
+
+# Form - estruturas
+
+Objetivos: 
+
+- Como funciona um formulario.
+- Como utilizar diversos dados de entrada.
+
+## O que são formularios?
+
+- Capturar dados de entrada (input)
+- Interação
+- Controle
+
+## Atributos dentro da tag form:
+
+- action: para onde os seus dados vão ser enviados
+- method: post e get. 
+
+## fieldset
+
+- Agrupamento de campos
+- Semântico
+- acessibilidade
+
+atributos especiais: 
+
+- disabled: desabilita todos os campos.
+- form: o id de um formulario ao qual esse fieldset pertence não precisa estar dentro do formulario. 
+- name: nome do grupo
+
+### legend
+
+- nome do agrupamento
+- primeiro elemento dentro do fieldset.
+
+## label 
+
+- Associa e identifica uma ou mais tags de entrada de dados.
+- acessibilidade
+- Você poderá clicar para mudar o foca da entrada de dados
+
+atributos: 
+
+for: 
+- Para fazer conexão entre este  label e a tag de entrada de dados
+- É feita via id do input
+- Só funciona com elementos especificos: button, input, meter, output, progress, select, textarea.
+
+## button
+
+- Representa um botão
+- Usado para enviar formulários
+- É estilizado pelo user agent
+
+atributos comuns: 
+
+- type: submit, reset, button.
+- autofocus
+- disabled
+- name
+- value
+- form
+
+## datalist
+
+- Lista de valores como sugestão a umaa tag input
+- Valores sugestivos e não obrigatórios
+- Usuários poderão selecionar um dos valores, ou colocar um valor diferente da sugestão.
+
+### list
+
+- Recebe com valor o id de um datalist residente no mesmo documento
+
+# Tags de entrada de dados
+
+## input 
+
+- Um dos mais usados em formularios 
+- Aceita os mais diversos tipos de dados
+- Um dos mais poderosos e complexos
+- Elevado número de combinações
+
+### Atributos 
+
+- type
+- name
+- id
+
+## input atributos
+
+- autofocus: vai dar foco para o elemento quando entrar na página, lembrando que só é permitido um por página, caso contrario não funcionará. 
+
+- disabled: desativará o campo.
+- required: não vai deixar o úsuario enviar o formulario até que esse campo seja preenchido. 
+
+### password
+
+- Coloca uma senha de mneira segura
+- esconde o que está sendo digitado no campo
+- o estilo da aprsentação do campo, depende do user agent.
+
+atributos: 
+
+minlength / maxlength: o número minimo e máximo de caracteres
+para este campo. 
+
+size: o número aceitável de caracteres que essse campo deverá
+conter.
+
+pattern: expressão regular par validar o que está sendo digitado 
+no campo. Altamente recomendado o uso de um padrão de segurança alta de senhas. 
+exemplo: queremos que a senha contenha caracteres hexadecimais com o limite minimo
+
+### email
+
+- Espera que o usuário digite um email.
+- Irá vlidar se o valor digitado é um email.
+
+atributos: 
+
+- placeholder: colocará um texto interno no campo
+- readonly/disabled: desativará o campo.
+- value: vai definir um valor padrão para seu campo, poderá ser alterado.
+- required: fará com que o campo seja obrigatorio.
+
+### url 
+
+- Espera que o usuário digite uma url.
+- Irá validar se o valor digitado é uma url.
+
+atributos: 
+
+- placeholder
+- readonly/ disabled
+- value
+- required
+- minlength/maxlength
+- size
+
+### file
+
+- Usuário poderá escolher 1 ou mais arquivos para enviar
+no formulário.
+
+atributos: 
+
+- value
+- accept: descreve que tipos de arquivos serão aceitos.
+- files
+- multiple
+
+### color
+
+- Interface para selecionar cor
+- color picker
+
+atributos: 
+
+- value: rgb (se invalido, o preto será exibido.)
+- list (datalist)
+
+### checkbox
+
+- Caixas que podem ser marcadas.
+- Selecionar um valor para ser enviado.
+- Se não selecionados, não será enviado nenhum dado.
+
+atributos: 
+
+- globais
+- value
+- checked
+
+### radio
+
+- Projetado para selecionar uma única opção de um grupo
+de opções.
+
+atributos: 
+
+- value
+- checked
