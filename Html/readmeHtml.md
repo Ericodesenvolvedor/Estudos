@@ -292,3 +292,39 @@ atributos:
 
 - value
 - checked
+
+### search
+
+- Para campos de busca
+- É igual ao campo do tipo text, mas poderá ser um pouco
+diferente dependendo do user agent.
+
+atributos:
+
+- list / datalist
+- pattern
+- aria-label: serve para acessibilidade, mesma funcionalidade da tag label.
+
+### tag textarea
+
+- mais de uma linha
+- útil para textos grandes
+
+atributos: 
+
+- id
+- name
+- rows e cols: define quantas linhas/colunas terão.
+- maxlength e minlength
+- wrap
+
+### tag select e option
+
+select: Controle que fornece um menu de opções
+option: Contém as opções a serem selecionadas
+- Um atributo necessario para que o select faça sentido.
+
+### tag octgroup 
+
+- Vai dar um titulo para nossas opções
+- Separar opções, dar mais sentido.
