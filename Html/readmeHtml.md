@@ -128,6 +128,8 @@ Objetivos:
 - action: para onde os seus dados vão ser enviados
 - method: post e get. 
 
+# Tags dentro do formulario:
+
 ## fieldset
 
 - Agrupamento de campos
@@ -140,7 +142,7 @@ atributos especiais:
 - form: o id de um formulario ao qual esse fieldset pertence não precisa estar dentro do formulario. 
 - name: nome do grupo
 
-### legend
+## legend
 
 - nome do agrupamento
 - primeiro elemento dentro do fieldset.
@@ -183,27 +185,38 @@ atributos comuns:
 
 - Recebe com valor o id de um datalist residente no mesmo documento
 
-# Tags de entrada de dados
+## textarea
 
-## input 
+- mais de uma linha
+- útil para textos grandes
+
+atributos: 
+
+- id
+- name
+- rows e cols: define quantas linhas/colunas terão.
+- maxlength e minlength
+- wrap
+
+## select e option
+
+select: Controle que fornece um menu de opções
+option: Contém as opções a serem selecionadas
+- Um atributo necessario para que o select faça sentido.
+
+## octgroup 
+
+- Vai dar um titulo para nossas opções
+- Separar opções, dar mais sentido.
+
+# Formularios - Entrada de dados
+
+## Inputs:
 
 - Um dos mais usados em formularios 
 - Aceita os mais diversos tipos de dados
 - Um dos mais poderosos e complexos
 - Elevado número de combinações
-
-### Atributos 
-
-- type
-- name
-- id
-
-## input atributos
-
-- autofocus: vai dar foco para o elemento quando entrar na página, lembrando que só é permitido um por página, caso contrario não funcionará. 
-
-- disabled: desativará o campo.
-- required: não vai deixar o úsuario enviar o formulario até que esse campo seja preenchido. 
 
 ### password
 
@@ -277,21 +290,14 @@ atributos:
 - Selecionar um valor para ser enviado.
 - Se não selecionados, não será enviado nenhum dado.
 
-atributos: 
-
-- globais
-- value
-- checked
+atributos: globais, value, checked.
 
 ### radio
 
 - Projetado para selecionar uma única opção de um grupo
 de opções.
 
-atributos: 
-
-- value
-- checked
+atributos: value, checked
 
 ### search
 
@@ -299,32 +305,19 @@ atributos:
 - É igual ao campo do tipo text, mas poderá ser um pouco
 diferente dependendo do user agent.
 
-atributos:
+atributos: list / datalist, pattern
 
-- list / datalist
-- pattern
 - aria-label: serve para acessibilidade, mesma funcionalidade da tag label.
 
-### tag textarea
+### number
 
-- mais de uma linha
-- útil para textos grandes
+- Entrada de número
 
-atributos: 
+Atributos: min/max, step, list
 
-- id
-- name
-- rows e cols: define quantas linhas/colunas terão.
-- maxlength e minlength
-- wrap
+### range
 
-### tag select e option
+- Controle para selecionar um valor númerico
+- Slider ou dial control.
 
-select: Controle que fornece um menu de opções
-option: Contém as opções a serem selecionadas
-- Um atributo necessario para que o select faça sentido.
-
-### tag octgroup 
-
-- Vai dar um titulo para nossas opções
-- Separar opções, dar mais sentido.
+atributos: min/max, step.
