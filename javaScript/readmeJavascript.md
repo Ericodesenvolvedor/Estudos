@@ -1,4 +1,4 @@
-# Guia estelar de javascript - 22/04
+# Guia estelar de javascript - 22/04/22
 
 O que vamos ver?
 
@@ -25,7 +25,7 @@ Linguagem de programação que roda no navegador do usuário (front-end)
 - Empresas famosas usam (facebook, google, uber, netflix, tiktok).
 - Linguagem obrigatoria para quem programa o front-end.
 
-## Primeiros passos
+## Primeiros passos 
 
 ### Sintaxe
 
@@ -44,7 +44,7 @@ consolelog("Bem-vindo ao start") - Errado (sem o ponto no .log)
 Comentários em linha - //
 Comentários em bloco - /* (inicio) */ (final)
 
-## Tipos de dados
+## Tipos de dados - 23/04/22
 
 ### Introdução:
 
@@ -83,3 +83,53 @@ Números:
 
 - Verdadeiro ou Falso.
 - true or false.
+
+### undefined vs null - 24/04/22
+
+undefined: 
+- indefinido
+
+null: 
+- nulo
+- objeto que não possui nada dentro.
+- diferente de indefinido.
+
+### object
+
+- Objeto
+- Propriedades/ atributos
+- funcionalidade/ metodos
+
+{Propriedade: "valor"}
+
+### array
+
+- Uma lista
+- Agrupamento de dado
+
+### Conclusão
+
+Conforme o ECMAScript standard temos 9 tipos de dados:
+
+Tipos de dados: 
+
+- Primitivo / valor primitivo
+- Estrutural
+- Primitivo estrutural
+
+Primitivos: 
+
+- String, Number, Boolean, Undefined, Symbol, BigInt
+
+Estruturais:
+
+- Object:
+    - array
+    - map
+    - set
+    - date
+- Function
+
+Primitivo estrutural:
+
+- Null
