@@ -43,3 +43,43 @@ consolelog("Bem-vindo ao start") - Errado (sem o ponto no .log)
 
 Comentários em linha - //
 Comentários em bloco - /* (inicio) */ (final)
+
+## Tipos de dados
+
+### Introdução:
+
+Gramática: 
+- elementos da linguagem e suas combinações.
+- A arte de falar e escrever corretamente. 
+
+Vocabulário:
+- Conjunto de termos e expressões.
+- Agripamento de palavras.
+
+Objetivo - foco:
+
+- Vamos aprender os tipos de dados mais utilizados na linguagem.
+- Conceitos e Escrita. 
+
+### String:
+
+- O tipo de dados String consiste em uma cadeia de caracteres, ou seja, textos.
+
+Para denotar string no JavaScript são usados: 
+- aspas duplas: ""
+- aspas simples: ''  
+- template literals ou template strings: ``. (crâses - você pode usar em bloco, pois é multilinha e não apresentará erro de escrita.)
+
+### Number: 
+
+Números:
+
+- 33 (inteiros)
+- 12.5 (reais)
+- NaN (Not a Number)
+- Infinity (infinito)
+
+### Boolean: 
+
+- Verdadeiro ou Falso.
+- true or false.
