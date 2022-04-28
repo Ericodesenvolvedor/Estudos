@@ -1,10 +1,20 @@
-# Curso Rocketseat - Discover
+# Rocketseat Discover
 
-## Sobre 
+Neste repositório você encontrará muitas pastas referentes ao curso da rocketseat discover, podendo conter desafios, práticas e anotações.
 
-Este curso é fornecido pela rocketseat em sua plataforma na parte de conteúdos discover, aqui você vai encontrar algumas anotações e exercicios do curso.
-
-## Tecnologias usadas até agora
+## Tecnologias utilizadas
 
 - HTML5
 - CSS3
+- JavaScript vanilla
+
+## Próxima atualização
+
+- Adicionar novas aulas.
+- Aprender novas tecnologias web.
+- Criar novos projetos.
+- Aprimorar boas práticas.
+
+## Autor
+
+&copy; [Ericodesenvolvedor](https://github.com/Ericodesenvolvedor)
