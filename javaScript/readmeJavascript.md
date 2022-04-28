@@ -133,3 +133,57 @@ Estruturais:
 Primitivo estrutural:
 
 - Null
+
+## Variaveis - 28/04/2022
+
+### Scope e var
+
+- Escopo determina a visibilidade de alguma variavel no js.
+
+- var tem o escopo global e, também local.
+
+#### Block statement(declaração de bloco)
+
+- O bloco criará um novo escopo
+
+### Tipos dinâmicos
+
+O js é uma linguagem fracamente tipada e dinâmica
+- Variáveis não precisam ter um tipo previamente definido.
+- Podemos mudar o conteúdo da variável
+- Com excessão do const que vai permanecer sempre com a mesma tipagem.
+
+### Conhecendo as variáveis
+
+- Nome simbólicos para receber algum valor
+- Atalhos de código.
+- Identificadores
+
+3 Palavras reservadas para criar uma variável:
+- var: escopo global.
+- let: escopo local.
+- const: escopo local e sua tipagem não pode ser mudada.
+
+## Nomeando variáveis
+
+- JS Aceita a cadeia de caracteres unicode.
+
+Posso:
+
+- Iniciar com esses caracteres especiais: $ _
+- Iniciar com letras
+- Colocar acentos
+- Letras maísculas e minúsculas fazm diferença.
+
+Não posso:
+
+- Iniciar com números
+- Colocar espaços vazios no nome
+
+Ideal: 
+
+- Criar nomes que fazem sentido
+- Que explique o que a variável é ou faz
+- camelCase
+- snake_case
+- Escrever em inglês. 
