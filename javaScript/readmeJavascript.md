@@ -186,4 +186,12 @@ Ideal:
 - Que explique o que a variável é ou faz
 - camelCase
 - snake_case
-- Escrever em inglês. 
+- Escrever em inglês.
+
+# functions - 03/05/2022
+
+- Repetir processos, rotinas.
+- Agrupamento de código.
+
+## Argumentos e parâmetros
+
