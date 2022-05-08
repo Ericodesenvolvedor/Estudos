@@ -195,3 +195,27 @@ Ideal:
 
 ## Argumentos e parâmetros
 
+- Parâmetro é a variável que irá receber um valor em uma função (ou método).
+- argumento é o valor (que pode originar de uma variável ou expressão) que 
+você passa para a função (ou método).
+
+## Function scope - 08/05/2022
+
+- Podemos mudar o valor de uma variável dentro da função, e fora do seu scope
+ela retornaria seu valor padrão
+
+Veja o exemplo na pasta 5 de funções, function scope.
+
+## Arrom function
+
+- Maneira mais curta de escrever funções.
+- Geralmente guardada com const.
+
+## Function callback
+
+- Criar uma função e chamar outra de volta.
+
+## Function constructor
+
+- This = chave
+- New = Criar um objeto
