@@ -286,3 +286,29 @@ retorna esta string.
 - Pegar somente alguns elementos do array.
 - Remover 1 item ou mais items em qualquer posição
 - Encontrar a posição de um elemento no array
+
+# Expressões e operadores
+
+Expressões: Qualquer linha de código que resolva algum determinado problema.
+operadores: usado para calcular determinados valores.
+
+## new
+
+- Criar um novo objeto
+exemplo: let name = new String('Eric')
+
+## typeof delete
+
+- Deleta uma propriedade de um objeto.
+- O objeto só será deletado caso o nome passado seja correto.
+
+## Operadores aritméticos
+
+* / = multiplicação e divisão
++ - = Soma, subtrair
+** -- ++ = exponencial, decremento e incremento.
+
+## grouping operator
+
+- Ordem de precedência
+- Agrupamento de expressões
