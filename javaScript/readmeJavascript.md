@@ -219,3 +219,70 @@ Veja o exemplo na pasta 5 de funções, function scope.
 
 - This = chave
 - New = Criar um objeto
+
+# Manipulando dados - 12/05/2022
+
+## Prototype
+
+- Baseado em prototipos
+- __ proto __ Uma propriedade criada referencindo um outro objeto;
+
+### Type conversion coersion
+
+- Alterar o tipo de um dado para outro tipo de dado.
+
+### Strings em números
+
+String para número: 
+- Number(), parseInt(), parseFloat()
+
+Número para string:
+- toString()
+
+### Contando caracteres e digitos
+
+- lenght
+- Contar quantos caracteres tem uma palavra
+- Contar quantos digitos tem.
+
+### Casas decimais
+
+- toFixed() = Quantas casa decimais depois da virgula. (2)
+- replace() = Trocar alguma coisa por outra coisas ('.', ',')
+
+### Maiúsculas e minúsculas 
+
+- toUpperCase() = Deixa em maiusculo.
+- toLowerCase() = Deixa em minusculo.
+
+### Encontrando palavras em frases
+
+- includes() = Verifica se tem alguma palavra na frase
+
+### Separando strings e join
+
+- join() = junta todos os elementos de um array (ou um array-like object) em uma string e 
+retorna esta string.
+- split() = separa a string em substrings, arrays dependendo do seu argumento. (' ')
+
+## Criando array com construtor
+
+- New array() = para criar um array construtor
+
+## Contar Elementos do Array
+
+- lenght
+
+## Strings para arrays
+
+- Array.from(varivel) = transforma uma cadeia de caracteres em array ('a', 'm', 'o', 'r')
+
+## Manipulando arrays - 14/05/2022
+
+- Adicionar um item no fim.
+- Adicionar um item no começo.
+- Remover um item do fim.
+- Remover um item do começo.
+- Pegar somente alguns elementos do array.
+- Remover 1 item ou mais items em qualquer posição
+- Encontrar a posição de um elemento no array
