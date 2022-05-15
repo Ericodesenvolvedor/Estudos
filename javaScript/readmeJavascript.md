@@ -312,3 +312,21 @@ exemplo: let name = new String('Eric')
 
 - Ordem de precedência
 - Agrupamento de expressões
+
+## Operadores de igualdade e diferente de
+
+- Operador de igual: ==
+- Operador diferente: != 
+- Retorna um valor boleano
+
+## Operadores de identico e estritamente diferente
+
+- Operador de identico: compara o tipo de dado também. (===)
+- Operador de estritamente diferente: compara o tipo de dado. (!==)
+
+## Operadores de atribuição
+
+Atribuição adicional = +=
+Atribuição subtração = -=
+Atribuição multiplicação = *=
+Atribuição divisão = /=
