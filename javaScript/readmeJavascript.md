@@ -330,3 +330,46 @@ Atribuição adicional = +=
 Atribuição subtração = -=
 Atribuição multiplicação = *=
 Atribuição divisão = /=
+
+## Operadores lógicos - 19/05/2022
+
+- Valores boleanos.
+- Resultam em verdadeiro ou falso.
+- &&, ||, !  = and, our, not. 
+
+## Operador condicional ternário
+
+- Dependendo da condição, recebemos valores diferentes.
+- Se for verdadeiro, condição 1, se for falso, condição 2.
+
+## Operadores para strings
+
+- Concatenar strings (+)
+- 'a' + 'bacate' = abacate.
+
+## Precendência dos operadores
+
+- determina a ordem em que os operadores são processados.
+- Operadores com maior precedência são processados primeiro.
+
+# Condicionais e controle de fluxo
+
+- Utilizar para atribuir uma grande interatividade a páginas web.
+- Declarações em bloco são utilizadas geralmente com declarações de 
+fluxo de controle.
+- If, while, for
+
+## If e Else
+
+- If: executar alguma declaração caso a condição lógica for verdadeira
+- Else: para executar alguma declaração caso a condição lógica for falsa.
+
+## Switch
+
+- permite que um programa avalie uma expressão e tente associar o valor da 
+expressão ao rótulo de um case.
+
+## Throw e Try/Catch - 22/05/2022
+
+Throw - disparar, lançar
+- Tentar executar um bloco de código, disparar um erro e capturar esse erro.
