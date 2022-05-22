@@ -373,3 +373,41 @@ expressão ao rótulo de um case.
 
 Throw - disparar, lançar
 - Tentar executar um bloco de código, disparar um erro e capturar esse erro.
+
+# Estruturas de repetição
+
+- Os loops são úteis, se você quiser executar o mesmo código várias vezes, 
+cada vez com um valor diferente.
+
+JavaScript suporta diferentes tipos de loops:
+
+- for- percorre um bloco de código várias vezes
+- for/in- percorre as propriedades de um objeto
+- for/of- percorre os valores de um objeto iterável
+- while- percorre um bloco de código enquanto uma condição especificada é verdadeira
+- do/while- também percorre um bloco de código enquanto uma condição especificada for verdadeira.
+
+## For
+
+- Inicialização de uma variável: let i = 0.
+- Expressão a ser executada: i < 10
+- Incremento ou decremento: i++, i--
+
+## While
+
+- Usar quando não saber a parada do loop.
+- Inicializar a variável antes do loop.
+- expressão: while(expressão).
+- incremento: {dentro do bloco i++}.
+
+## For of
+
+- A instrução JavaScript for of percorre os valores de um objeto iterável.
+- Ele permite que você faça um loop sobre estruturas de dados iteráveis, como Arrays, Strings, 
+Maps, NodeLists e muito mais.
+- ver o exemplo no js.
+
+## For in
+
+- Criará um loop em cima de um objeto.
+- Pegar as propriedades do objeto.
